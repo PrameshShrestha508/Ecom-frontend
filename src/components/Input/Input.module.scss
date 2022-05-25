@@ -1,0 +1,32 @@
+@import "../../styles/abstract/mixins";
+@import "../../styles/abstract/variables";
+$label-font-size: 1.2rem;
+
+.main {
+  @include flex-box-generic(flex-start, flex-start, column);
+  width: 70%;
+}
+
+.label {
+  font-size: $label-font-size;
+  margin: 8px 0;
+  color: #b4b4b4;
+}
+
+.input {
+  height: 35px;
+  width: 100%;
+  background-color: #b4b4b4;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
+
+.error {
+  color: $error-color;
+}

@@ -1,0 +1,94 @@
+.employeeWrapper {
+  overflow: hidden;
+  height: 60vh;
+  width: 80%;
+  margin: auto;
+  padding: 2.5rem;
+  margin-top: 7rem;
+  box-shadow: 0 2px 20px gray;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+  .employeeDetail {
+    .employeeBody {
+      img {
+        height: 10rem;
+      }
+      h2 {
+        padding: 1rem;
+        font-size: 1rem;
+        span {
+          color: black;
+          font-weight: bold;
+          font-size: 1rem;
+        }
+      }
+      p {
+        padding: 0 1rem;
+        span {
+          color: black;
+          font-weight: bold;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  .address {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    h2 {
+      padding: 1rem;
+    }
+
+    p {
+      padding: 0 1rem;
+      span {
+        color: black;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    h2 {
+      padding: 1rem;
+    }
+
+    p {
+      padding: 0 1rem;
+      span {
+        color: black;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+  .company {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    h2 {
+      padding: 1rem;
+    }
+
+    p {
+      padding: 0 1rem;
+      span {
+        color: black;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+}

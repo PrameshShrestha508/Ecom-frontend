@@ -1,0 +1,81 @@
+import Employee from "../../assets/man.avif";
+const EmployeeData = [
+  {
+    id: 1,
+    EmployeeName: "Sabita Sitaula",
+    Post: "Software Engineering Intern",
+    EmployeeImage: Employee,
+    isPresent: true,
+  },
+  {
+    id: 2,
+    EmployeeName: "Pramesh Shrestha",
+    Post: "Software Engineering Intern",
+    EmployeeImage: Employee,
+    isPresent: false,
+  },
+  {
+    id: 3,
+    EmployeeName: "Nabin Dhital",
+    Post: "Software Engineering Intern",
+    EmployeeImage: Employee,
+    isPresent: true,
+  },
+  {
+    id: 4,
+    EmployeeName: "Kusum Lamichhane",
+    Post: "Software Engineering Intern",
+    EmployeeImage: Employee,
+    isPresent: false,
+  },
+  {
+    id: 5,
+    EmployeeName: "Kriti Thapa",
+    Post: "Software Engineering Intern",
+    EmployeeImage: Employee,
+    isPresent: true,
+  },
+  {
+    id: 6,
+    EmployeeName: "Saurav Dhami",
+    Post: "Software Engineering Intern",
+    EmployeeImage: Employee,
+    isPresent: false,
+  },
+  {
+    id: 7,
+    EmployeeName: "Sabin Gautam",
+    Post: "Software Engineering Intern",
+    EmployeeImage: Employee,
+    isPresent: true,
+  },
+  {
+    id: 8,
+    EmployeeName: "Mohan Pradhan",
+    Post: "Software Engineering Intern",
+    EmployeeImage: Employee,
+    isPresent: false,
+  },
+  {
+    id: 9,
+    EmployeeName: "Susan Shrestha",
+    Post: "Software Engineering Intern",
+    EmployeeImage: Employee,
+    isPresent: true,
+  },
+  {
+    id: 10,
+    EmployeeName: "Ashish Basnet",
+    Post: "Software Engineering Intern",
+    EmployeeImage: Employee,
+    isPresent: true,
+  },
+  {
+    id: 11,
+    EmployeeName: "Darsan Gautam",
+    Post: "Software Engineering Intern",
+    EmployeeImage: Employee,
+    isPresent: true,
+  },
+];
+export default EmployeeData;

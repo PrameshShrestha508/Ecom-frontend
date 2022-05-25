@@ -1,0 +1,38 @@
+.orange {
+  font-size: 1.1rem;
+  line-height: 2;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: all 200ms linear;
+  color: white;
+  background-color: orange;
+  border-radius: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  outline: 0;
+  text-transform: capitalize;
+}
+
+.orange .green:hover {
+  transform: translateY(-3px);
+}
+
+.green {
+  font-size: 1.1rem;
+  line-height: 2;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  transition: all 200ms linear;
+  color: white;
+  background-color: green;
+  border-radius: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  outline: 0;
+  text-transform: capitalize;
+}
